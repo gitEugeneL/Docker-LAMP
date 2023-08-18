@@ -7,15 +7,12 @@
 
 1.Build Docker images based on the configuration defined in the docker-compose.yml
 
-    docker-compose build
+    make build (docker-compose build) 
 
-2.Download Docker images for all services defined in the docker-compose.yml
 
-    docker-compose pull
+2.Start containers and run composition for all services defined in the docker-compose.yml
 
-3.Start containers and run composition for all services defined in the docker-compose.yml
-
-    docker-compose up -d
+     make up (docker-compose up)
 
 
 ## How to connect to servers
